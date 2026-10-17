@@ -1,26 +1,57 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-paper: #0f172a;
+  --color-ink: #f1f5f9;
+  --color-brand: #818cf8;
+  --color-brand-light: #a5b4fc;
+  --color-brand-dark: #6366f1;
+  --color-accent: #22d3ee;
+  --color-muted: #94a3b8;
+  --color-card: #1e293b;
+  --color-border: #334155;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+}
+
+::selection {
+  background-color: var(--color-brand);
+  color: var(--color-paper);
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20;
+  }
+
+  .section-title {
+    @apply text-3xl sm:text-4xl font-bold mb-2 text-ink;
+  }
+
+  .section-subtitle {
+    @apply text-muted text-lg mb-12;
+  }
+
+  .card {
+    @apply bg-card rounded-2xl border border-border shadow-sm hover:shadow-md transition-shadow duration-300;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 bg-brand text-white font-medium rounded-xl hover:bg-brand-dark transition-colors duration-200;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3 border-2 border-brand text-brand font-medium rounded-xl hover:bg-brand hover:text-white transition-colors duration-200;
+  }
+
+  .tag {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-brand/10 text-brand;
+  }
 }
