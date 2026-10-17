@@ -1,5 +1,6 @@
 export const siteConfig = {
   name: "Tom Leonard Abella",
+  url: "https://tomleonard-abella.vercel.app",
   title: "Software Developer",
   tagline: "Building responsive web & mobile applications",
   description:
