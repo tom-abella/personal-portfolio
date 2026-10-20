@@ -31,7 +31,10 @@ export default function Home() {
                 Get In Touch
               </a>
               <a href="/resume.pdf" download className="btn-secondary">
-                Download Resume
+                Download PDF
+              </a>
+              <a href="/resume.docx" download className="btn-secondary">
+                Download Word
               </a>
             </div>
             <div className="flex gap-3">

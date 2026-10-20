@@ -79,13 +79,22 @@ export default function Navbar() {
                 {link.label}
               </button>
             ))}
-            <a
-              href="/resume.pdf"
-              download
-              className="ml-3 px-4 py-2 text-sm font-medium text-white bg-brand hover:bg-brand-dark rounded-lg transition-colors"
-            >
-              Resume
-            </a>
+            <div className="flex items-center gap-2">
+              <a
+                href="/resume.pdf"
+                download
+                className="px-4 py-2 text-sm font-medium text-white bg-brand hover:bg-brand-dark rounded-lg transition-colors"
+              >
+                PDF
+              </a>
+              <a
+                href="/resume.docx"
+                download
+                className="px-4 py-2 text-sm font-medium text-brand border border-brand/40 hover:bg-brand/10 rounded-lg transition-colors"
+              >
+                Word
+              </a>
+            </div>
           </div>
 
           <button
@@ -118,13 +127,22 @@ export default function Navbar() {
                 {link.label}
               </button>
             ))}
-            <a
-              href="/resume.pdf"
-              download
-              className="block w-full text-center mt-3 px-4 py-2.5 text-sm font-medium text-white bg-brand hover:bg-brand-dark rounded-lg transition-colors"
-            >
-              Download Resume
-            </a>
+            <div className="grid grid-cols-2 gap-2 mt-3">
+              <a
+                href="/resume.pdf"
+                download
+                className="block text-center px-3 py-2.5 text-sm font-medium text-white bg-brand hover:bg-brand-dark rounded-lg transition-colors"
+              >
+                PDF
+              </a>
+              <a
+                href="/resume.docx"
+                download
+                className="block text-center px-3 py-2.5 text-sm font-medium text-brand border border-brand/40 hover:bg-brand/10 rounded-lg transition-colors"
+              >
+                Word
+              </a>
+            </div>
           </div>
         </div>
       )}
