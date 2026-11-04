@@ -30,11 +30,8 @@ export default function Home() {
               <a href="#contact" className="btn-secondary">
                 Get In Touch
               </a>
-              <a href="/resume.pdf" download className="btn-secondary">
-                Download PDF
-              </a>
-              <a href="/resume.docx" download className="btn-secondary">
-                Download Word
+              <a href="/resume.pdf" download="resume" className="btn-secondary">
+                Download resume
               </a>
             </div>
             <div className="flex gap-3">
