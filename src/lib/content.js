@@ -116,7 +116,7 @@ export const projects = [
     tech: ["Next.js", "Supabase", "IndexedDB", "Tesseract.js"],
     github: "https://github.com/tom-abella/Hati",
     live: "https://hatibudgeting.vercel.app",
-    image: "/projects/hati.svg",
+    image: "/projects/hati-screenshot.png",
   },
   {
     title: "Our Little World",
@@ -126,7 +126,7 @@ export const projects = [
     tech: ["Next.js", "React", "Canvas", "Zustand"],
     github: "https://github.com/tom-abella/our-little-world",
     live: "https://tamlittleworld.vercel.app",
-    image: "/projects/our-little-world.svg",
+    image: "/projects/our-little-world-screenshot.png",
   },
 ];
 
