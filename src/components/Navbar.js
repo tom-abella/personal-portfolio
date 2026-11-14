@@ -82,7 +82,7 @@ export default function Navbar() {
             <div className="flex items-center gap-2">
               <a
                 href="/resume.pdf"
-                download="resume"
+                download="TomLeonardAbell - Resume.pdf"
                 className="px-4 py-2 text-sm font-medium text-white bg-brand hover:bg-brand-dark rounded-lg transition-colors"
               >
                 Download resume
@@ -120,17 +120,10 @@ export default function Navbar() {
                 {link.label}
               </button>
             ))}
-            <div className="grid grid-cols-2 gap-2 mt-3">
+            <div className="mt-3">
               <a
                 href="/resume.pdf"
-                download="resume"
-                className="block text-center px-3 py-2.5 text-sm font-medium text-white bg-brand hover:bg-brand-dark rounded-lg transition-colors"
-              >
-                Download resume
-              </a>
-              <a
-                href="/resume.pdf"
-                download="resume"
+                download="TomLeonardAbell - Resume.pdf"
                 className="block text-center px-3 py-2.5 text-sm font-medium text-white bg-brand hover:bg-brand-dark rounded-lg transition-colors"
               >
                 Download resume

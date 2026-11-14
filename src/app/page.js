@@ -30,7 +30,7 @@ export default function Home() {
               <a href="#contact" className="btn-secondary">
                 Get In Touch
               </a>
-              <a href="/resume.pdf" download="resume" className="btn-secondary">
+              <a href="/resume.pdf" download="TomLeonardAbell - Resume.pdf" className="btn-secondary">
                 Download resume
               </a>
             </div>
