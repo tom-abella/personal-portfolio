@@ -48,22 +48,6 @@ export const skills = {
 
 export const projects = [
   {
-    title: "Hati",
-    description:
-      "An in-progress personal finance prototype for tracking income, expenses, cards, and reminders, with local-first storage and an OCR-assisted transaction entry flow.",
-    metrics: "In progress · Early prototype",
-    tech: ["Next.js", "Supabase", "IndexedDB", "Tesseract.js"],
-    image: "/projects/hati.svg",
-  },
-  {
-    title: "Our Little World",
-    description:
-      "An in-progress, RPG-inspired personal gift that tells a story through exploration and collectible memories. Built with a custom canvas-based game world and touch controls.",
-    metrics: "In progress · Personal project",
-    tech: ["Next.js", "React", "Canvas", "Zustand"],
-    image: "/projects/our-little-world.svg",
-  },
-  {
     title: "Xure",
     description:
       "A suite of applications for the collectibles ecosystem, including Xure and Xtore. Built with React Native, Next.js, TanStack Query, and Zustand. Managed end-to-end development, deployment, and maintenance across mobile and web platforms. Features include live events, live bidding, box breaks, and order processing.",
@@ -123,6 +107,26 @@ export const projects = [
     github: "https://github.com/tom-abella/snap-share",
     live: "https://snap-share-beta.vercel.app",
     image: "/projects/snap-share.png",
+  },
+  {
+    title: "Hati",
+    description:
+      "An in-progress personal finance prototype for tracking income, expenses, cards, and reminders, with local-first storage and an OCR-assisted transaction entry flow.",
+    metrics: "In progress · Early prototype",
+    tech: ["Next.js", "Supabase", "IndexedDB", "Tesseract.js"],
+    github: "https://github.com/tom-abella/Hati",
+    live: "https://hatibudgeting.vercel.app",
+    image: "/projects/hati.svg",
+  },
+  {
+    title: "Our Little World",
+    description:
+      "An in-progress, RPG-inspired personal gift that tells a story through exploration and collectible memories. Built with a custom canvas-based game world and touch controls.",
+    metrics: "In progress · Personal project",
+    tech: ["Next.js", "React", "Canvas", "Zustand"],
+    github: "https://github.com/tom-abella/our-little-world",
+    live: "https://tamlittleworld.vercel.app",
+    image: "/projects/our-little-world.svg",
   },
 ];
 
